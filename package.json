@@ -1,10 +1,18 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "christophplanken.de",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Christophs persönliche Webseite!",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Christoph Planken <me@christophplanken.de>",
+  "repository": "https://github.com/pr0gstar/ChristophPlanken.de",
   "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/server": "^11.0.0",
+    "@emotion/styled": "^11.1.5",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
     "gatsby": "^3.0.1",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",
     "gatsby-plugin-image": "^1.0.0",
@@ -22,12 +30,10 @@
     "typescript": "^4.2.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "prettier": "2.2.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -35,14 +41,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
